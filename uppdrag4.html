@@ -25,7 +25,7 @@ body, html {height: 100%}
   </div>
   <div class="w3-display-middle">
     <iframe width="854" height="480"
-    src="https://www.youtube.com/embed/Rv4xjpR0W3M?autoplay=1&mute=0">
+    src="https://www.youtube.com/embed/Rv4xjpR0W3M?autoplay=1&mute=0&rel=0">
     </iframe>
 
     <p id="demo" class="w3-large w3-center">Ange ditt svar nedan</p> 
@@ -43,10 +43,11 @@ body, html {height: 100%}
       // If x is Not a Number or less than one or greater than 10
       let text;
       if (x == "hej") {
-        text = "Input not valid";
-        window.location.href = "http://stinagustafsson.com/uppdrag5";
-      } else {
         text = "Fel svar";
+        
+      } else {
+        text = "TRUUUUUUUUE";
+        window.location.href = "http://stinagustafsson.com/uppdrag5";
       }
       document.getElementById("demo").innerHTML = text;
     }
